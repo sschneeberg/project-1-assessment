@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 15vh;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: 15vh 15vh 15vh 15vh;
+    grid-template-rows: 15vh;
+    gap: 2rem;
+}
+
+button {
+    font-family: Helvetica, sans-serif;
+    background-color: lightgray;
+    border: 4px solid lightgray;
+    color: white;
+    border-radius: 12px;
+    font-size: 10vh;
+}
+
+input {
+    font-family: Helvetica, sans-serif;
+    grid-column: 2 / span 2;
+    text-align: center;
+    border-radius: 12px;
+    border: 4px solid lightgray;
+    font-size: 10vh;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: white;
+    color: lightgray;
+}
+
+.selected {
+    background-color: white;
+}
+
+#error {
+    color: red;
+}
+
+.hide {
+    visibility: hidden;
+}
