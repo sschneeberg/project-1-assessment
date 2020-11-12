@@ -6,6 +6,8 @@ This brief project is an end of unit exercise to assess both our own comfort lev
 
 Simply use the input box to set and increment of your choice and utilize the `add` and `subtract` buttons to do simple arthimatic on the accumulated total.
 
+If you enter a non number, an error will flash.
+
 ## To install:
 1. `fork` and `clone` this repository to your local machine
 2. Open files in your code editor of choice
